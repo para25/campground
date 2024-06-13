@@ -1,0 +1,197 @@
+#landing-header-camp {
+  z-index: 1;
+  position: relative;
+  text-align: center;
+  padding-top: 400px;
+  color: white;
+}
+
+
+.slideshow { 
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 10px;
+  left: 0;
+  z-index: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.slideshow li { 
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  background-size: 100% 500px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  opacity: 0;
+  z-index: 0;
+  animation: imageAnimation 50s linear infinite; 
+}
+
+.slideshow li:nth-child(1) { 
+  background-image: url(http://i.imgur.com/K3mPv14.jpg) 
+}
+.slideshow li:nth-child(2) { 
+  background-image: url(http://i.imgur.com/2LSMCmJ.jpg);
+  animation-delay: 10s; 
+}
+.slideshow li:nth-child(3) { 
+  background-image: url(http://i.imgur.com/emvhOnb.jpg);
+  animation-delay: 20s; 
+}
+.slideshow li:nth-child(4) { 
+  background-image: url(http://i.imgur.com/TVGe0Ef.jpg);
+  animation-delay: 30s; 
+}
+.slideshow li:nth-child(5) { 
+  background-image: url(http://i.imgur.com/2LSMCmJ.jpg);
+  animation-delay: 40s; 
+}
+
+@keyframes imageAnimation { 
+  0% { 
+    opacity: 0; 
+    animation-timing-function: ease-in;
+  }
+  10% {
+    opacity: 1;
+    animation-timing-function: ease-out;
+  }
+  20% {
+    opacity: 1
+  }
+  30% {
+    opacity: 0
+  }
+}
+
+#jumbointro{
+  background-color: #29bcff;
+}
+
+#landing-body-black{
+  margin-top:0;
+  background-color: black;
+
+}
+
+#landing-body-light{
+  background: #009FFF;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ec2F4B, #009FFF);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ec2F4B, #009FFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+.camp-feature{
+  margin-top: 5%;
+}
+
+#camp-feature-1{
+  background-color: orange;
+  height: 260px;
+  font-size: 20px;
+  color: white;
+  margin-top: 4%;
+}
+
+#camp-feature-2{
+  background-color:rgb(209, 22, 162);
+  height: 260px;
+  font-size: 20px;
+  color: white;
+  margin-top: 4%;
+}
+
+#camp-feature-3{
+  background-color:green;
+  height: 260px;
+  font-size: 20px;
+  color: white;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.stars-outer {
+  position: relative;
+  display: inline-block;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.stars-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.stars-outer::before {
+  content: "\f005 \f005 \f005 \f005 \f005";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #ccc;
+}
+
+.stars-inner::before {
+  content: "\f005 \f005 \f005 \f005 \f005";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #f8ce0b;
+}
+#footer-jumbo{
+background: #232526;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: white;
+}
+.home-head-post{
+  font-family: 'Pacifico', cursive;
+  font-size: 40px;
+  text-align: center;
+}
+#head-title{
+  font-size: 70px;
+  text-align: center;
+}
+.head-question{
+
+  font-size: 40px;
+
+}
+#div-work{
+  margin-top: 7%;
+  font-size: 27px;
+  margin-bottom: 0;
+  background: #34e89e;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0f3443, #34e89e);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0f3443, #34e89e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 2%;
+  color: #dedede;
+
+}
+#div-what{
+  margin-top: 7%;
+  font-size: 35px;
+  color:#6f1919;
+}
+#landpage-post-head{
+  background: #c31432;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #b6b5b5;  
+  padding-bottom: 30px;
+}
+.flash-msg{
+  text-align: center;
+  margin-bottom: 0;
+}
